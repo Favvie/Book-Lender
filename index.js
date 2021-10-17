@@ -123,32 +123,3 @@ console.log(bookLender1.getBooks());
 // 
 //Creating library
 // console.log(library1.getUsers())
-
-//Adding books to library
-library1.addBook("Hamlet");
-library1.addBook("Machbeth");
-library1.addBook("Goosebumps");
-library1.addBook("The Testament");
-library1.addBook("Den of Thieves");
-library1.addBook("Purple Hybiscus");
-library1.addBook("Animal Farm");
-library1.addBook("The Mill");
-// console.log(library1.getBooks())
-
-//Adding users to library
-library1.addUser(user1);
-library1.addUser(user2);
-library1.addUser(user3);
-console.log(library1.getUsers());
-
-//Users borrowing books
-user1.borrowBook("Hamlet", library1);
-user2.borrowBook("Machbeth", library1);
-user2.borrowBook("Hamlet", library1);
-user3.borrowBook("goosebumps", library1);
-user2.borrowBook("animal farm", library1);
-user4.borrowBook("purple hybiscus", library1);
-
-// //Users returning books
-user1.returnBook("hamlet", library1);
-user2.returnBook("hamlet", library1);
